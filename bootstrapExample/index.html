@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Base Bootstrap Example</title>
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="main.css">
+	</head>
+	<body>
+
+		<nav class="navbar navbar-light bg-faded">
+			<a class="navbar-brand" href="#">Todo Application</a>
+		</nav>	
+
+		<div class="container">
+
+			<h1 class="page-title text-center">Signup Form</h1>
+
+			<form>
+
+				<div class="form-group">
+					<label for="fname">First Name:</label>
+					<input type="text" name="fname" class="form-control">
+				</div>
+
+				<div class="form-group">
+					<label for="lname">Last Name:</label>
+					<input type="text" name="lname" class="form-control">
+				</div>
+
+				<div class="form-group">
+					<label for="email">E-mail Address:</label>
+					<input type="email" name="email" class="form-control">
+				</div>
+
+				<div class="form-group">
+					<label for="phone">Phone Number:</label>
+					<input type="phone" name="phone" class="form-control">
+				</div>
+
+				<div class="form-group">
+					<label for="birthday">Birthday:</label>
+					<input type="date" name="birthday" class="form-control">
+				</div>
+
+				<div class="form-group">
+					<label for="gender">Gender:</label>
+					<select name="gender" class="form-control">
+						<option>Male</option>
+						<option>Female</option>
+						<option>Other</option>
+					</select>
+				</div>
+
+				<button type="submit" class="btn btn-success pull-right">
+					Submit
+				</button>
+
+			</form>
+		</div>
+
+	</body>
+</html>
