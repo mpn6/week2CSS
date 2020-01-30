@@ -67,7 +67,7 @@ html, body {
 
 @media only screen and (min-width: 750px) and (max-width: 1000px) {
 	.app-container {
-		width: 720px;
+		width: 720px; /*set the app container to be a little smaller than the smallest screen size*/
 	}
 
 	.content-container .card {
